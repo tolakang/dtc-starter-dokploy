@@ -5,7 +5,7 @@ ENV REDIS_URL=${REDIS_URL}
 
 WORKDIR /server
 
-RUN npm install pnpm@11.9.0 -g
+RUN npm install pnpm@10.11.1 -g
 
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json .npmrc ./
 COPY apps/storefront/package.json ./apps/storefront/
