@@ -1,4 +1,5 @@
 # Legacy Dockerfile - Use Dockerfile.medusa for Medusa backend OR Dockerfile.storefront for Storefront
+# This file is maintained for backward compatibility but is no longer recommended for new deployments
 FROM node:20-alpine
 
 WORKDIR /server
